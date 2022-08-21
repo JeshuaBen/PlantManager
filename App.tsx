@@ -12,10 +12,12 @@ import {
   Jost_400Regular,
   Jost_500Medium,
   Jost_600SemiBold
- } from '@expo-google-fonts/jost';
+ } from "@expo-google-fonts/jost";
+
 import { ThemeProvider } from "styled-components";
 
-export const App = () => {
+export default function App() {
+
   const [fontsLoaded] = useFonts({
     Jost_300Light,
     Jost_400Regular,
@@ -24,7 +26,7 @@ export const App = () => {
   });
 
   const onLayoutRootView = useCallback(async () => {
-    if(fontsLoaded) {
+    if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);

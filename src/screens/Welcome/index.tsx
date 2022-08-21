@@ -1,9 +1,11 @@
 import React from 'react';
 
-import { Container } from './style';
+import { Container, Title } from './style';
 
 export const Welcome: React.FC = () => {
   return(
-    <Container></Container>
+    <Container>
+      <Title>Funcionando</Title>
+    </Container>
   )
 }
