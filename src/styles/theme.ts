@@ -5,11 +5,17 @@ export default {
     green800: "#2B7A4B",
 
     heading: "#52665A",
-    greenBody: "#5C6660",
-    body: "#AAB3AD",
+    body_dark: "#5C6660",
+    body_light: "#AAB3AD",
 
-    shape: "linear-gradient(113.01deg, #F5FAF7 0%, #F0F0F0 100%)",
-    background: "#FFFFFF"
+    shape: "#F0F0F0",
+    background: "#FFFFFF",
+    gray100: "#cfcfcf",
+
+    blue500: '#3d7199',
+    blue50: '#EBF6FF',
+
+    red600: '#E83F5B',
   },
 
   fonts: {
